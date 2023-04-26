@@ -4,8 +4,8 @@ public class Program
 {
     public static void Main()
     {
-        Console.WriteLine("Скільки коштує один зошит?");
-        double x = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("Скільки коштує один зошит?");
+        double x = Convert.ToDouble(Console.ReadLine());
 
         Console.WriteLine("Скільки коштує одна ручка?");
         double y = Convert.ToDouble(Console.ReadLine());
