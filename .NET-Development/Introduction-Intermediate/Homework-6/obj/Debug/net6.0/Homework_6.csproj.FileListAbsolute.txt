@@ -1,0 +1,15 @@
+C:\Users\Andrew\Documents\GitHub\EPAM\.NET-Development\Introduction-Intermediate\Homework-6\bin\Debug\net6.0\Homework_6.exe
+C:\Users\Andrew\Documents\GitHub\EPAM\.NET-Development\Introduction-Intermediate\Homework-6\bin\Debug\net6.0\Homework_6.deps.json
+C:\Users\Andrew\Documents\GitHub\EPAM\.NET-Development\Introduction-Intermediate\Homework-6\bin\Debug\net6.0\Homework_6.runtimeconfig.json
+C:\Users\Andrew\Documents\GitHub\EPAM\.NET-Development\Introduction-Intermediate\Homework-6\bin\Debug\net6.0\Homework_6.dll
+C:\Users\Andrew\Documents\GitHub\EPAM\.NET-Development\Introduction-Intermediate\Homework-6\bin\Debug\net6.0\Homework_6.pdb
+C:\Users\Andrew\Documents\GitHub\EPAM\.NET-Development\Introduction-Intermediate\Homework-6\obj\Debug\net6.0\Homework_6.csproj.AssemblyReference.cache
+C:\Users\Andrew\Documents\GitHub\EPAM\.NET-Development\Introduction-Intermediate\Homework-6\obj\Debug\net6.0\Homework_6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrew\Documents\GitHub\EPAM\.NET-Development\Introduction-Intermediate\Homework-6\obj\Debug\net6.0\Homework_6.AssemblyInfoInputs.cache
+C:\Users\Andrew\Documents\GitHub\EPAM\.NET-Development\Introduction-Intermediate\Homework-6\obj\Debug\net6.0\Homework_6.AssemblyInfo.cs
+C:\Users\Andrew\Documents\GitHub\EPAM\.NET-Development\Introduction-Intermediate\Homework-6\obj\Debug\net6.0\Homework_6.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\Documents\GitHub\EPAM\.NET-Development\Introduction-Intermediate\Homework-6\obj\Debug\net6.0\Homework_6.dll
+C:\Users\Andrew\Documents\GitHub\EPAM\.NET-Development\Introduction-Intermediate\Homework-6\obj\Debug\net6.0\refint\Homework_6.dll
+C:\Users\Andrew\Documents\GitHub\EPAM\.NET-Development\Introduction-Intermediate\Homework-6\obj\Debug\net6.0\Homework_6.pdb
+C:\Users\Andrew\Documents\GitHub\EPAM\.NET-Development\Introduction-Intermediate\Homework-6\obj\Debug\net6.0\Homework_6.genruntimeconfig.cache
+C:\Users\Andrew\Documents\GitHub\EPAM\.NET-Development\Introduction-Intermediate\Homework-6\obj\Debug\net6.0\ref\Homework_6.dll
