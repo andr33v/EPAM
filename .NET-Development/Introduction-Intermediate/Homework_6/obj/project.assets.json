@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Andrew\\Documents\\GitHub\\EPAM\\.NET-Development\\Introduction-Intermediate\\Homework-6\\Homework_6.csproj",
+      "projectUniqueName": "C:\\Users\\Andrew\\Documents\\GitHub\\EPAM\\.NET-Development\\Introduction-Intermediate\\Homework_6\\Homework_6.csproj",
       "projectName": "Homework_6",
-      "projectPath": "C:\\Users\\Andrew\\Documents\\GitHub\\EPAM\\.NET-Development\\Introduction-Intermediate\\Homework-6\\Homework_6.csproj",
+      "projectPath": "C:\\Users\\Andrew\\Documents\\GitHub\\EPAM\\.NET-Development\\Introduction-Intermediate\\Homework_6\\Homework_6.csproj",
       "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Andrew\\Documents\\GitHub\\EPAM\\.NET-Development\\Introduction-Intermediate\\Homework-6\\obj\\",
+      "outputPath": "C:\\Users\\Andrew\\Documents\\GitHub\\EPAM\\.NET-Development\\Introduction-Intermediate\\Homework_6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
