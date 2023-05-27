@@ -6,15 +6,15 @@ class Task2
         Console.WriteLine("Task II - The closest prime number to target.");
 
         Console.Write("Enter target number: ");
-        int n = Convert.ToInt32(Console.ReadLine());
+        long n = Convert.ToInt64(Console.ReadLine());
 
-        int curr = 0;
-        int prev = 0;
-        int result = 0;
+        long curr = 0;
+        long prev = 0;
+        long result = 2;
         bool isPrime;
         bool isNum = false;
 
-        for (int j = 2; j <= n * n; ++j)
+        for (long j = 2; j <= n * n; ++j)
         {
             if (!isNum)
             {
@@ -23,7 +23,7 @@ class Task2
 
             isPrime = true;
 
-            for (int i = 2; i * i <= j; ++i)
+            for (long i = 2; i * i <= j; ++i)
             {
                 if (j % i == 0)
                 {
@@ -43,8 +43,8 @@ class Task2
 
                 if ( curr > n && prev < n )
                 {
-                    int min = Math.Abs(n - curr);
-                    int max = n - prev;
+                    long min = Math.Abs(n - curr);
+                    long max = n - prev;
 
                     if( max >= min )
                     {

@@ -14,17 +14,12 @@ class Task1 : Task2
         Console.Write("Enter third number: ");
         int c = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine($"Greatest common divisor of {a}, {b} and {c} is {gcd(gcd(a, b), c)}");
+        Console.WriteLine($"Greatest common divisor of {a}, {b} and {c} is {gcdForThreeNums(a, b, c)}");
         TaskII();
     }
 
-    public static int gcd(int first, int second)
+    public static int gcdForThreeNums(int first, int second, int third)
     {
-        if(first == second)
-        {
-            return first;
-        }
-
         while (first != second)
         {
             if (first > second)
@@ -34,6 +29,18 @@ class Task1 : Task2
             else
             {
                 second = second - first;
+            }
+        }
+
+        while (first != third)
+        {
+            if(first > third)
+            {
+                first = first - third;
+            }
+            else
+            {
+                third = third - first;
             }
         }
 
