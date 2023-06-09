@@ -74,3 +74,5 @@ function calculateTotalCost(tour, travelers){
 
 tour.displayInfo()
 calculateTotalCost(tour, 15);
+
+//Strings and arrays
