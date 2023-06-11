@@ -1,35 +1,7 @@
-﻿using System;
-
-class Dijkstra : Dijkstra_Enhanced
+﻿class Dijkstra : Dijkstra_Enhanced
 {
-    static int[,] matrix = new int[6, 6]
+    public static void Dijkstras(int start, int n, int[,] matrix)
     {
-        { 0,  7,  9,  0, 0, 14},
-        { 7,  0, 10, 15, 0,  0},
-        { 9, 10,  0, 11, 0,  2},
-        { 0, 15, 11,  0, 6,  0},
-        { 0,  0,  0,  6, 0,  9},
-        {14,  0,  2,  0, 9,  0},
-    };
-
-    static void matrixprint(int[,] matrix)
-    {
-        Console.WriteLine("Matrix: ");
-        for(int i = 0; i < 6; ++i)
-        {
-            for(int j = 0; j < 6; ++j)
-            {
-                Console.Write("{0, 3}", matrix[i, j]);
-            }
-            Console.WriteLine();
-        }
-        Console.WriteLine();
-    }
-
-    public static void Dijkstras(int start, int n)
-    {
-        matrixprint(matrix);
-
         --start;
 
         int[] dist = new int[n];
