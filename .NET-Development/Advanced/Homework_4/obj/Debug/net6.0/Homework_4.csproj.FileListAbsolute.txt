@@ -1,0 +1,15 @@
+C:\Users\Andrew\Documents\GitHub\EPAM\.NET-Development\Advanced\Homework_4\bin\Debug\net6.0\Homework_4.exe
+C:\Users\Andrew\Documents\GitHub\EPAM\.NET-Development\Advanced\Homework_4\bin\Debug\net6.0\Homework_4.deps.json
+C:\Users\Andrew\Documents\GitHub\EPAM\.NET-Development\Advanced\Homework_4\bin\Debug\net6.0\Homework_4.runtimeconfig.json
+C:\Users\Andrew\Documents\GitHub\EPAM\.NET-Development\Advanced\Homework_4\bin\Debug\net6.0\Homework_4.dll
+C:\Users\Andrew\Documents\GitHub\EPAM\.NET-Development\Advanced\Homework_4\bin\Debug\net6.0\Homework_4.pdb
+C:\Users\Andrew\Documents\GitHub\EPAM\.NET-Development\Advanced\Homework_4\obj\Debug\net6.0\Homework_4.csproj.AssemblyReference.cache
+C:\Users\Andrew\Documents\GitHub\EPAM\.NET-Development\Advanced\Homework_4\obj\Debug\net6.0\Homework_4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrew\Documents\GitHub\EPAM\.NET-Development\Advanced\Homework_4\obj\Debug\net6.0\Homework_4.AssemblyInfoInputs.cache
+C:\Users\Andrew\Documents\GitHub\EPAM\.NET-Development\Advanced\Homework_4\obj\Debug\net6.0\Homework_4.AssemblyInfo.cs
+C:\Users\Andrew\Documents\GitHub\EPAM\.NET-Development\Advanced\Homework_4\obj\Debug\net6.0\Homework_4.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\Documents\GitHub\EPAM\.NET-Development\Advanced\Homework_4\obj\Debug\net6.0\Homework_4.dll
+C:\Users\Andrew\Documents\GitHub\EPAM\.NET-Development\Advanced\Homework_4\obj\Debug\net6.0\refint\Homework_4.dll
+C:\Users\Andrew\Documents\GitHub\EPAM\.NET-Development\Advanced\Homework_4\obj\Debug\net6.0\Homework_4.pdb
+C:\Users\Andrew\Documents\GitHub\EPAM\.NET-Development\Advanced\Homework_4\obj\Debug\net6.0\Homework_4.genruntimeconfig.cache
+C:\Users\Andrew\Documents\GitHub\EPAM\.NET-Development\Advanced\Homework_4\obj\Debug\net6.0\ref\Homework_4.dll

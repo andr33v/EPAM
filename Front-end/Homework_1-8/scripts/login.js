@@ -33,7 +33,8 @@ button.addEventListener("click", function() {
                 user.login = true;
                 user.password = password;
                 user.isAdmin = isAdmin;
-                alert("Welcome!");
+                alert("Welcome, admin!");
+                button.style.display = "none";
                 break;
             }
             else{
@@ -44,7 +45,8 @@ button.addEventListener("click", function() {
             isAdmin = false;
             user.login = log;
             user.isAdmin = isAdmin;
-            alert("Welcome!");
+            alert("Welcome, guest!");
+            button.style.display = "none";
             break;
         }
         else{
@@ -53,26 +55,3 @@ button.addEventListener("click", function() {
         }
     }
 });
-
-//Objects and functions
-const tour = {
-    name: "Mystical Bali Adventure",
-    description: `Explore the enchanting island of Bali, with its lush jungles, vibrant culture, and ancient temples.
-    Visit the iconic Tanah Lot temple, hike to the summit of Mount Batur, and unwind on the pristine
-    beaches of Nusa Dua.`,
-    price: 2000,
-    duration: 7,
-    displayInfo: function(){
-        console.log("Name: " + this.name + "\n" + "Description: " + this.description + "\n" + "Price: " + this.price + "$\n" + "Duration: " + this.duration + "d");
-    }
-}
-
-function calculateTotalCost(tour, travelers){
-    totalCost = tour.price * travelers
-    console.log("Total cost: " + totalCost + "$");
-}
-
-tour.displayInfo()
-calculateTotalCost(tour, 15);
-
-//Strings and arrays
