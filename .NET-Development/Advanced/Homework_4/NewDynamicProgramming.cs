@@ -13,7 +13,7 @@ class NewDynamicProgramming
             Console.WriteLine("There are no combinations at this length!");
         }
 
-        List<int> dp = new List<int>(5);
+        List<int> dp = new List<int>(n);
         dp.Add(2); // 0 and 1
         dp.Add(3); // 00, 01, 10
 
