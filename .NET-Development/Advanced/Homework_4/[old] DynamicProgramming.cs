@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-class DynamicProgramming
+class OldDynamicProgramming
 {
-    static void Main(string[] args)
+    public static void OldMain()
     {
         List<string> dp = new List<string>();
         Console.Write("Enter length of number: ");
@@ -13,9 +13,9 @@ class DynamicProgramming
 
         bool isRec = Console.ReadLine() == "1";
         if (isRec)
-            dpRecursive(dp, "", n, false);
+            DpRecursive(dp, "", n, false);
         else
-            dpIterative(dp, n);
+            DpIterative(dp, n);
 
         Console.WriteLine($"\nIf number length equals {n}, there are {dp.Count} combinations of 0 and 1, where 1 doesn't goes twice.");
         Console.WriteLine("Do you like to see these combinations?\n1 - Yes\n0 - No");
@@ -33,7 +33,7 @@ class DynamicProgramming
         Console.WriteLine("\nThanks for testing!");
     }
 
-    static void dpIterative(List<string> dp, int len)
+    static void DpIterative(List<string> dp, int len)
     {
         dp.Add("0");
         dp.Add("1");
@@ -55,7 +55,7 @@ class DynamicProgramming
         }
     }
 
-    static void dpRecursive(List<string> dp, string cur, int rem, bool prev)
+    static void DpRecursive(List<string> dp, string cur, int rem, bool prev)
     {
         if (rem == 0)
         {
@@ -63,10 +63,10 @@ class DynamicProgramming
         }
         else
         {
-            dpRecursive(dp, cur + '0', rem - 1, false);
+            DpRecursive(dp, cur + '0', rem - 1, false);
             if (prev == false)
             {
-                dpRecursive(dp, cur + '1', rem - 1, true);
+                DpRecursive(dp, cur + '1', rem - 1, true);
             }
         }
     }

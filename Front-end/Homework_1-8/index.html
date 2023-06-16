@@ -100,7 +100,7 @@
                     </ul>
                 </div>
                 <div class="section__buttons">
-                    <button class="section__button section__buttons section__buttons__share">Share</button>
+                    <button id="button__share" class="section__button section__buttons section__buttons__share">Share</button>
                 </div>
             </div>
         </section>
@@ -116,11 +116,13 @@
             <span class="close">&times;</span>
             <h2 id="modalTitle"></h2>
             <p id="modalDescription"></p>
-            <p><strong>Price:</strong> <span id="modalPrice"></span></p>
-            <p><strong>Duration:</strong> <span id="modalDuration"> days</span></p>
+            <p><strong>Price:</strong> <span id="modalPrice"></span> $</p>
+            <p><strong>Duration:</strong> <span id="modalDuration"></span> Days</p>
         </div>
     </div>
 
+    <script src="/scripts/order_tour.js"></script>
+    <script src="/scripts/plan-share.js"></script>
     <script src="/scripts/more_info.js"></script>
     <script src="/scripts/render_tours.js"></script>
     <script src="/scripts/login.js"></script>  
