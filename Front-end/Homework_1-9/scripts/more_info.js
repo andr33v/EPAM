@@ -90,6 +90,7 @@ const moreInfoTours = [
 ];
 
 document.addEventListener("DOMContentLoaded", function() {
+    const page = document.querySelector(".main");
     const infoButtons = document.querySelectorAll(".tour-card__button-info");
     const modal = document.getElementById("tourModal");
     const closeModal = document.querySelector(".close");
@@ -106,16 +107,19 @@ document.addEventListener("DOMContentLoaded", function() {
             modalPrice.textContent = tours.price;
             modalDuration.textContent = tours.duration;
             modal.style.display = "block";
+            page.classList.add("blur-background");
         });
     });
-
+    
     closeModal.addEventListener("click", function() {
         modal.style.display = "none";
+        page.classList.remove("blur-background");
     });
 
     window.addEventListener("click", (event) => {
         if (event.target === modal){
             modal.style.display = "none";
+            page.classList.remove("blur-background");
         }
     });
 });

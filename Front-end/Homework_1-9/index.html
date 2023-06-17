@@ -83,7 +83,7 @@
                         <li class="section__list-item">Enjoy peace of mind with 24/7 customer support</li>
                     </ul>
                 </div>
-                <button class="section__button section__content-button">Plan a tour</button>
+                <button class="section__button section__content-button" id="button__plan">Plan a tour</button>
             </div>
         </section>
         <section id="order_tour" class="tour-cards"></section>
@@ -118,6 +118,18 @@
             <p id="modalDescription"></p>
             <p><strong>Price:</strong> <span id="modalPrice"></span> $</p>
             <p><strong>Duration:</strong> <span id="modalDuration"></span> Days</p>
+        </div>
+    </div>
+
+    <div class="plan" id="tripPlan">
+        <div class="plan-content">
+            <span class="plan-close">&times;</span>
+            <h2 id="planTitle">Get personalized support!</h2>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+            <label for="description">Describe:</label>
+            <textarea name="description" id="description" placeholder="Enter your preferences" rows="6" cols="40"> </textarea>
+            <button id="submit-button" class="plan-content button__submit">Submit!</button>
         </div>
     </div>
 

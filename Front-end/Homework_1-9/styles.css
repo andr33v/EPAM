@@ -459,6 +459,7 @@ body {
         padding: 10 25px;
         margin: 0 30px;
     }
+
 }
 
 @media screen and (max-width: 580px) {
@@ -476,6 +477,15 @@ body {
         width: 100%;
         font-size: 0.5em;
     }
+
+    .modal {
+        
+    }
+        
+    .modal-content {
+        font-size: 0.9em;
+    }
+
     .tour-cards{
         display: flex;
         justify-content: center;
@@ -522,26 +532,47 @@ body {
     z-index: 1;
     left: 0;
     top: 0;
-    width: 100%;
-    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
     overflow: auto;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(7, 0, 105, 0.454);
+}
+
+#modalTitle {
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 15px white;
+}
+
+.modal p, label{
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 5px 15px rgba(0, 0, 0, 0.558);
+}
+
+#modalDescription {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 5px 15px rgba(0, 0, 0, 0.558);
 }
 
 .modal-content {
-    background-color: wheat;
+    background: linear-gradient(to right, #b90cd4, #00bbe0);
     margin: 15% auto;
-    padding: 20px;
-    border: 1px solid blue;
-    border-radius: 10px;
-    width: 80%;
-    box-shadow: 0 4px 6px black;
+    padding: 35px;
+    border: 5px solid rgba(144, 0, 255, 0.352);
+    border-radius: 35px;
+    width: 70%;
+    height: 35%;
+    box-shadow: 0 5px 15px black;
 }
 
 .close {
-    color: #aaa;
+    color: #0037ff;
+    text-shadow: 0px 1px 10px rgb(0, 38, 255);
     float: right;
-    font-size: 28px;
+    top: -15px;
+    right: 15px;
+    position: relative;
+    font-size: 70px;
     font-weight: bold;
     cursor: pointer;
     transition: color 0.3s;
@@ -549,6 +580,98 @@ body {
 
 .close:hover,
 .close:focus {
-    color: blue;
+    color: rgb(255, 0, 238);
+    text-shadow: 0px 1px 10px rgb(255, 36, 244);
     text-decoration: none;
 }
+
+.blur-background {
+    filter: blur(4px);
+}
+
+.plan {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: none;
+    background-color: rgba(7, 0, 105, 0.454);
+  }
+  
+  .plan-content {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #b90cd4, #00bbe0);
+    padding: 15px;
+    border: 5px solid rgba(144, 0, 255, 0.352);
+    border-radius: 35px;
+    max-width: 400px;
+    height: 15em;
+    box-shadow: 0 5px 15px black;    
+    margin: 10% auto;
+  }
+  
+  #submit-button {
+    position: relative;
+    opacity: 0.9;
+    box-shadow: 0px 6px 15px rgba(54, 3, 96, 0.634);
+    font-size: 18px;
+    padding: 5px 0;
+    width: 10em;
+    height: 3em;
+    margin-top: 1em;
+    color: white;
+    background: linear-gradient(to bottom right, #8806c5, #146aec);;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+#submit-button:hover { 
+    transition: 0.8s ease-in-out;
+    opacity: 0.8;
+    cursor: pointer;
+    background: linear-gradient(to bottom right, #c506c5, #14afec);
+}
+
+#planTitle {
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 15px white;
+}
+
+.plan p, label{
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 5px 15px rgba(0, 0, 0, 0.558);
+}
+
+.plan-close {
+    color: #0037ff;
+    text-shadow: 0px 1px 10px rgb(0, 38, 255);
+    float: right;
+    top: -15px;
+    position: relative;
+    font-size: 70px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.plan-close:hover,
+.plan-close:focus {
+    color: rgb(255, 0, 238);
+    text-shadow: 0px 1px 10px rgb(255, 36, 244);
+    text-decoration: none;
+}
+
+#description {
+    resize: none;
+  }
