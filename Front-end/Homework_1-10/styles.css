@@ -212,6 +212,12 @@ body {
     text-shadow: 2px 2px 10px rgb(54, 255, 181);
 }
 
+.header__nav-link:active {
+    transition: 0.2s;
+    color: rgb(3, 249, 253);
+    text-shadow: 2px 2px 15px rgb(54, 255, 235);
+}
+
 .section {
     display: flex;
     flex-direction: column;
@@ -273,6 +279,13 @@ body {
     transition: 0.2s ease-in-out;
     transform: scale(1.10);
     transition: all 0.3s;
+}
+
+.section__content-button:active {
+    opacity: 1;
+    transform: scale(1.11);
+    transition: 0.2s ease-in-out;
+    background: linear-gradient(to bottom right, #e504f5, #8407e4);;
 }
 
 .section-1 .section__title{
@@ -402,6 +415,14 @@ body {
     background: linear-gradient(to bottom right, #c506c5, #14afec);
 }
 
+.tour-card__button:active{
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+    opacity: 1;
+    cursor: pointer;
+    background: linear-gradient(to bottom right, #e6089f, #0de7ef);
+}
+
 .section__buttons__share{
     opacity: 0.9;
     box-shadow: 3px 3px 15px rgb(3, 127, 134);
@@ -425,6 +446,13 @@ body {
     transition: 0.2s ease-in-out;
     transform: scale(1.10);
     transition: all 0.3s;
+}
+
+.section__buttons__share:active {
+    opacity: 1;
+    transform: scale(1.11);
+    transition: 0.2s ease-in-out;
+    background: linear-gradient(to bottom left, #09d3ee, #19c87d);;
 }
 
 .footer {
