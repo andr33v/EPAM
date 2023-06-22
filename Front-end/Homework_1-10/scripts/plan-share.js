@@ -81,15 +81,18 @@ function addUserRequest(user, request){
 
 //Share button
 const share = document.getElementById("button__share");
-let userShares = JSON.parse(localStorage.getItem(user.login + "Shares"));
-if (!userShares) {
-  userShares = {
-    count: 0
-  };
+let userShares;
+if(localStorage.getItem("currentUser") !== null){
+    userShares = JSON.parse(localStorage.getItem(user.login + "Shares"));
+}
+    if (!userShares) {
+    userShares = {
+        count: 0
+    };
 }
 
 share.addEventListener("click", function(){
-    if(user.login === "" || user == null){
+    if(localStorage.getItem("currentUser") === null){
         alert("Log in to an account to share your experience!");
     }
     else{

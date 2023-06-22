@@ -409,7 +409,7 @@ body {
 
 .tour-card__button:hover { 
     transform: scale(1.05);
-    transition: 0.8s ease-in-out;
+    transition: 0.4s ease-in-out;
     opacity: 0.8;
     cursor: pointer;
     background: linear-gradient(to bottom right, #c506c5, #14afec);
@@ -877,4 +877,10 @@ body {
     cursor: pointer;
     transform: scale(1.05);
     transition: all 0.3s;
+}
+
+.active-card {
+    border: 2px solid rgb(234, 0, 255);
+    box-shadow: 0px 0px 10px rgb(255, 0, 255);
+    transition: 0.5s ease-in-out;
 }

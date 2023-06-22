@@ -15,3 +15,21 @@ document.addEventListener("DOMContentLoaded", function(){
         });
     });
 });
+
+//Display chosen tour
+const tourLinks = document.querySelectorAll("#nav-link");
+tourLinks.forEach((link) => {
+  link.addEventListener("click", (event) => {
+    const tourCards = document.querySelectorAll(".tour-card");
+    tourCards.forEach((card) => {
+      card.classList.remove("active-card");
+    });
+
+    const tourCardId = event.target.getAttribute("href").substring(1);
+    const tourCard = document.getElementById(tourCardId);
+
+    if (tourCard) {
+      tourCard.classList.add("active-card");
+    }
+  });
+});
